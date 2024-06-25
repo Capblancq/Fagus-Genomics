@@ -1,4 +1,5 @@
-
+### Sequence data treatment and downstream analyses produced using bash scripts
+---------------------
 
 1. "1-fastqTrimReads.sh", "2-fastqMapping.sh", "3-removingPCRduplicates.sh" and "4-SNPcallingANGSD.sh" describe how we used Trimmomatic, bwa and ANGSD (http://www.popgen.dk/angsd/index.php/ANGSD#Overview) to produce genotype likelihoods from .fastq files
 
