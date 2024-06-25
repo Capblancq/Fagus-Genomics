@@ -1,0 +1,26 @@
+// Priors and rules file
+// *********************
+[PARAMETERS]
+//#isInt? #name   #dist.#min  #max
+//all N are in number of haploid individuals
+1 N_LC unif 5000 60000 output
+1 N_GCW unif 10000 100000 output
+1 N_HY unif 1000 20000 output
+1 N_anc1 unif 10000 200000 output
+1 N_anc2 unif 500000 5000000 output
+1 T1 unif 10 1000 output
+1 TEXTRA unif 1 5000 hide
+0 m_LC_GCW unif 1e-7 1e-2 output
+0 m_LC_HY unif 1e-7 1e-2 output
+0 m_GCW_HY unif 1e-7 1e-2 output
+0 m_anc unif 1e-7 1e-2 output
+0 R_LC unif -1e-2 1e-2 output
+0 R_GCW unif -1e-2 1e-2 output
+0 R_HY unif -1e-2 1e-2 output
+0 R_anc unif -1e-2 1e-2 output
+
+[RULES]
+[COMPLEX PARAMETERS]
+1 T2 = T1+TEXTRA ouput
+0 ResizeTIME1 = N_anc1/N_LC hide
+0 ResizeTIME2 = N_anc2/N_HY hide
