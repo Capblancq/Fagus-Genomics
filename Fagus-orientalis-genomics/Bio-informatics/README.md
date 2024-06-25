@@ -4,4 +4,4 @@
 
 2. "5.1-PCAngsd.sh", "5.2-NGSadmix.sh", "6.1-GenDivSites.sh", "6.2-GenDivRegions.sh", "7.1-LDdecayInput.sh", "7.2-LDwindows.sh" and "8-GeneticLoad.sh" describe how we used genotype likelihoods to produce different estimates of genetic diversity (thetas, genetic load), genetic structure (PCA, admixture proportions and Fst) and linkage disiquilibrium (LD).
 
-3. 
+3. "6.3-GenDivConversionSFS3pops.sh", "9.1-FastsimcoalInferences.sh" and "9.2-FastsimcoalPostTreatment.sh" describe how we produce the SFS from genotype likelihoods and used them for demographic inferences.
